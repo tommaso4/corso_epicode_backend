@@ -44,6 +44,7 @@ public class esercizio3 {
             res = 1;
         }
         return res;
+
     }
 
     public static double areaTriangolo (int a, int b, int c){
