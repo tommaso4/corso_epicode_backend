@@ -30,6 +30,7 @@ public class Esercizzi_day1 {
         for (int i = 3; i <=6 ; i++) {
             newArray[i] = arr[i -1];
         }
+
         return newArray;
     }
 
