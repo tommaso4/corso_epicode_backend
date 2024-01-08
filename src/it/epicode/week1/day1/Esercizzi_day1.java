@@ -1,5 +1,6 @@
 package it.epicode.week1.day1;
 
+import java.util.Arrays;
 import java.util.SplittableRandom;
 
 public class Esercizzi_day1 {
@@ -27,7 +28,7 @@ public class Esercizzi_day1 {
 
         newArray[2] = newStr;
 
-        for (int i = 3; i <=6 ; i++) {
+        for (int i = 3; i <6 ; i++) {
             newArray[i] = arr[i -1];
         }
 
@@ -44,7 +45,7 @@ public class Esercizzi_day1 {
 
         String[] myArr = {"uno","due", "tre", "quattro", "cinque"};
         String[] newArr = Inserisci(myArr, "myStr");
-        System.out.println(newArr);
+        System.out.println(Arrays.toString(newArr));
 
     }
 }
