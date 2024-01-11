@@ -11,7 +11,6 @@ public class Rettangolo {
         this.height = height;
         this.length = length;
     }
-
     public int area(){
         return height * length;
     }
