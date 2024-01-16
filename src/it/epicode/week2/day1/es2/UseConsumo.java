@@ -1,14 +1,14 @@
 package it.epicode.week2.day1.es2;
 
-import ch.qos.logback.classic.Logger;
 import it.epicode.week2.day1.es1.UseArr;
+import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.Scanner;
 
 public class UseConsumo {
 
-    private static final Logger logger = (Logger) LoggerFactory.getLogger(UseConsumo.class);
+    static final Logger logger = LoggerFactory.getLogger("es2");
 
     public static void main(String[] args) {
 

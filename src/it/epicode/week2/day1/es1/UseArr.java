@@ -1,6 +1,6 @@
 package it.epicode.week2.day1.es1;
 
-import ch.qos.logback.classic.Logger;
+import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.Random;
@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class UseArr {
 
-    private static final Logger logger = (Logger) LoggerFactory.getLogger(UseArr.class);
+    static final Logger logger = LoggerFactory.getLogger("es1");
     public static void main(String[] args) {
 
         RandomArray myArr = new RandomArray();
@@ -27,6 +27,7 @@ public class UseArr {
                 printArr(arr1);
             }catch (Exception e) {
                 logger.error("Errore durante l'inserimento del numero", e);
+                System.out.println(e.getMessage());
             }
 
         } while (num != 0);

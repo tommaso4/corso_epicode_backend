@@ -1,12 +1,12 @@
 package it.epicode.week2.day1.es3;
 
-import ch.qos.logback.classic.Logger;
 import it.epicode.week2.day1.es2.UseConsumo;
+import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Banca {
 
-    private static final ch.qos.logback.classic.Logger logger = (Logger) LoggerFactory.getLogger(Banca.class);
+    static final Logger logger = LoggerFactory.getLogger("es3");
     public static void main(String args[]) {
         ContoCorrente conto1 = new ContoCorrente("Mario Grossi", 20000.0);
 
@@ -34,6 +34,8 @@ public class Banca {
 
         }
     }
+
+
 }
 
 

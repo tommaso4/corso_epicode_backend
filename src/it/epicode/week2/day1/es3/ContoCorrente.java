@@ -6,6 +6,7 @@ public class ContoCorrente {
     final int maxMovimenti = 50;
     double saldo;
 
+
     ContoCorrente(String titolare, double saldo) {
         this.titolare = titolare;
         this.saldo = saldo;
